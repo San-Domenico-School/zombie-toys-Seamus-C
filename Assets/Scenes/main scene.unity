@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028289, g: 0.22571392, b: 0.30692202, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 631855298}
   - component: {fileID: 631855297}
   - component: {fileID: 631855296}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Spawner: {fileID: 0}
-  maxHealth: 100
+  maxHealth: 10
   scoreValue: 10
   sinkSpeed: 2.5
   deathEffectTime: 2
@@ -675,14 +675,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: -0.08786718, y: -0.88650286, z: 0.41338304, w: -0.18843178}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -204, z: 0}
 --- !u!1 &733531522
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,7 +803,7 @@ MonoBehaviour:
   frostAttack: {fileID: 0}
   stinkAttack: {fileID: 0}
   slimeAttack: {fileID: 0}
-  prototypeAttack: {fileID: 0}
+  prototypeAttack: {fileID: 1196358057}
   countDown: {fileID: 0}
 --- !u!114 &733531529
 MonoBehaviour:
@@ -1417,7 +1417,7 @@ GameObject:
   - component: {fileID: 1287121712}
   - component: {fileID: 1287121715}
   - component: {fileID: 1287121714}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: EnemyModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1657,7 +1657,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7136562f2cb1943e786176da31843c37,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.92387956
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7136562f2cb1943e786176da31843c37,
         type: 3}
@@ -1667,7 +1667,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7136562f2cb1943e786176da31843c37,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.38268343
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7136562f2cb1943e786176da31843c37,
         type: 3}
@@ -1682,7 +1682,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7136562f2cb1943e786176da31843c37,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7136562f2cb1943e786176da31843c37,
         type: 3}
