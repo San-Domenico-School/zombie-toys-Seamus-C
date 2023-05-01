@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7264711145594159425}
   - component: {fileID: 7264711145582619713}
   - component: {fileID: 5902181333151835719}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hearse
   m_TagString: Untagged
   m_Icon: {fileID: 0}

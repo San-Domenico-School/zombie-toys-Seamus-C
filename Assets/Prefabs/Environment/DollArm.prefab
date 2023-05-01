@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1499070139503323469}
   - component: {fileID: 4672401489207765224}
   - component: {fileID: 6821210961949831779}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HandCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 3895621350067667028}
   - component: {fileID: 3895621350066700948}
   - component: {fileID: 3895621350073872276}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DollArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3895621350155231754}
   - component: {fileID: 5144146892757997233}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ArmColliderUper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -223,7 +223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7922427898916028356}
   - component: {fileID: 6884649258577244681}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HandCollider (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -268,7 +268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5961677864409712150}
   - component: {fileID: 692504488245411120}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ArmColliderLower
   m_TagString: Untagged
   m_Icon: {fileID: 0}

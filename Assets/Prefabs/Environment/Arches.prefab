@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7326155619763290814}
   - component: {fileID: 1917165191632932784}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BlockYellowLean
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 4371411501268589192}
   - component: {fileID: 4499105302623741026}
   - component: {fileID: 1679326244030340521}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BlockBlue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 4677812731072125345}
   - component: {fileID: 4677812731071159137}
   - component: {fileID: 4677812731082454625}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Arches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -236,7 +236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7227314648666710526}
   - component: {fileID: 3021498736502226912}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BlockGreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 1119999087167767068}
   - component: {fileID: 4380025995498430941}
   - component: {fileID: 1674233081000499076}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BlockYellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

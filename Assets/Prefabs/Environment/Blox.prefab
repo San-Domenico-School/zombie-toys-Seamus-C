@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6465467841572051095}
   - component: {fileID: 6465467841564833175}
   - component: {fileID: 2075797031571085215}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blox
   m_TagString: Untagged
   m_Icon: {fileID: 0}

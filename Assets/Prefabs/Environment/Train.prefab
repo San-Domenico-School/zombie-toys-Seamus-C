@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 521228870189726380}
   - component: {fileID: 5211639148010833662}
   - component: {fileID: 820058255329175097}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TrainCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 4545087988590907349}
   - component: {fileID: 4545087988583424725}
   - component: {fileID: 6010549137862322008}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Train
   m_TagString: Untagged
   m_Icon: {fileID: 0}

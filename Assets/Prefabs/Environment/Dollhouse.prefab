@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1152406614230845248}
   - component: {fileID: 1152406614242339392}
   - component: {fileID: 1663226658658513369}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Dollhouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5878191965283838368}
   - component: {fileID: 3765887178168514199}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DoorCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
