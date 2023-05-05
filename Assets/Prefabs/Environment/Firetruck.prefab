@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 19615130164412606}
   - component: {fileID: 1109274363580637431}
   - component: {fileID: 3774336544359150722}
+  - component: {fileID: 2239417995827285987}
   m_Layer: 10
   m_Name: Firetruck
   m_TagString: Untagged
@@ -118,8 +119,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.1988354, y: 2.0823169, z: 4.632819}
-  m_Center: {x: 0.0000011920929, y: 1.1399283, z: -0.5023236}
+  m_Size: {x: 2.173995, y: 2.0823169, z: 4.632819}
+  m_Center: {x: -0.012418985, y: 1.1399283, z: -0.5023236}
 --- !u!65 &3774336544359150722
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -133,6 +134,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.87, y: 1.21, z: 1}
   m_Center: {x: 0, y: 0.82, z: 2.32}
+--- !u!65 &2239417995827285987
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19615130157134718}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0950403, y: 0.66033125, z: 2.1973298}
+  m_Center: {x: 0.12044829, y: 2.1881008, z: -1.6913238}
 --- !u!1 &9058180647072648233
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,7 +172,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9058180647072648233}
   m_LocalRotation: {x: -0.15037681, y: -0, z: -0, w: 0.9886288}
-  m_LocalPosition: {x: 0, y: 2.9093764, z: -0.00062441826}
+  m_LocalPosition: {x: 0, y: 2.82, z: 0.027}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -176,5 +190,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.19847491, z: 5.1890197}
-  m_Center: {x: 0, y: 0.042767733, z: -0.021936655}
+  m_Size: {x: 1.4694687, y: 0.20005035, z: 5.452983}
+  m_Center: {x: 0.23473446, y: 0.118770614, z: -0.15391973}
