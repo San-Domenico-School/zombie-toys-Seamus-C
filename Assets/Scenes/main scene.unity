@@ -2192,6 +2192,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 281120855}
     m_Modifications:
+    - target: {fileID: 2256120804450835346, guid: f806f5ce1cf094a29afc74a21c2ef63c,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9922a12f34d0a084aab32de985459723, type: 3}
+    - target: {fileID: 2256120804450835346, guid: f806f5ce1cf094a29afc74a21c2ef63c,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256120804450835346, guid: f806f5ce1cf094a29afc74a21c2ef63c,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 8816633530680338662, guid: f47630e8d541f489e93eeed1759a718b,
+        type: 2}
     - target: {fileID: 2256120804450835354, guid: f806f5ce1cf094a29afc74a21c2ef63c,
         type: 3}
       propertyPath: m_RootOrder
@@ -2279,8 +2295,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2256120804450835359, guid: f806f5ce1cf094a29afc74a21c2ef63c,
         type: 3}
+      propertyPath: deathClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
+    - target: {fileID: 2256120804450835359, guid: f806f5ce1cf094a29afc74a21c2ef63c,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1943951056}
+    - target: {fileID: 2256120804450835359, guid: f806f5ce1cf094a29afc74a21c2ef63c,
+        type: 3}
       propertyPath: isInvulnerable
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2256120805855276976, guid: f806f5ce1cf094a29afc74a21c2ef63c,
         type: 3}
@@ -3331,6 +3357,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1943951056 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2256120804450835346, guid: f806f5ce1cf094a29afc74a21c2ef63c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1142465555}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2000774768
 GameObject:
   m_ObjectHideFlags: 0

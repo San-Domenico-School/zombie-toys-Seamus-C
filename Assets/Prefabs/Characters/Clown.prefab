@@ -258,12 +258,12 @@ MonoBehaviour:
   scoreValue: 25
   sinkSpeed: 2.5
   deathEffectTime: 2
-  deathClip: {fileID: 0}
-  hurtClip: {fileID: 0}
+  deathClip: {fileID: 8300000, guid: 62366b8d2c37a49dca550841c741317f, type: 3}
+  hurtClip: {fileID: 8300000, guid: 1d4840678e677424b8921716c72397ea, type: 3}
   enemyAttack: {fileID: 6664693272251397003}
   enemyMovement: {fileID: 6664693272251397002}
   animator: {fileID: 6664693272251397005}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 6664693272251397001}
   capsuleCollider: {fileID: 6664693272251397006}
   hitParticles: {fileID: 0}
   isInvulnerable: 0
