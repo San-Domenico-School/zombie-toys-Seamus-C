@@ -67,10 +67,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2.0007885
+  m_Radius: 0.56600225
+  m_Height: 1.8556143
   m_Direction: 1
-  m_Center: {x: 0, y: 0.0011585951, z: 0}
+  m_Center: {x: 0.070890754, y: 0.80370665, z: 0}
 --- !u!195 &2903273230646273592
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -80,7 +80,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 2903273230646273536}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 0.56
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -89,8 +89,8 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 1
+  m_Height: 1.61
+  m_BaseOffset: -0.02
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!135 &2903273230646273595
@@ -104,8 +104,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.81015843
+  m_Center: {x: 0, y: 0.71285725, z: 0}
 --- !u!95 &2903273230646273594
 Animator:
   serializedVersion: 4
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FrostDebuff: {fileID: 0}
   navMeshAgent: {fileID: 2903273230646273592}
-  animator: {fileID: 2903273230646273594}
+  animator: {fileID: 536515183866841865}
   runAwayDistance: 10
 --- !u!114 &2903273230646273596
 MonoBehaviour:
@@ -157,7 +157,7 @@ MonoBehaviour:
   SlimeDebuff: {fileID: 0}
   timeBetweenAttacks: 0.5
   attackDamage: 10
-  animator: {fileID: 2903273230646273594}
+  animator: {fileID: 536515183866841865}
 --- !u!114 &2903273230646273599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,10 +179,10 @@ MonoBehaviour:
   hurtClip: {fileID: 8300000, guid: 02e6208ec76314158a9f548f51fe9f11, type: 3}
   enemyAttack: {fileID: 2903273230646273596}
   enemyMovement: {fileID: 2903273230646273597}
-  animator: {fileID: 2903273230646273594}
+  animator: {fileID: 536515183866841865}
   audioSource: {fileID: 2903273230646273598}
   capsuleCollider: {fileID: 2903273230646273593}
-  hitParticles: {fileID: 0}
+  hitParticles: {fileID: 19881454, guid: 1c3a4f54276893240b6224d53f76eef8, type: 3}
   isInvulnerable: 0
 --- !u!82 &2903273230646273598
 AudioSource:
@@ -204,7 +204,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.40356612
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -348,6 +348,30 @@ PrefabInstance:
 --- !u!4 &536515183857263779 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400074, guid: be66986effd141b4992d2d78be127139,
+    type: 3}
+  m_PrefabInstance: {fileID: 536515183857401449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &536515183857498243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100074, guid: be66986effd141b4992d2d78be127139,
+    type: 3}
+  m_PrefabInstance: {fileID: 536515183857401449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1174538736629408647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536515183857498243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa84063f669bd4dc092131cd4ec57f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &536515183866841865 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: be66986effd141b4992d2d78be127139,
     type: 3}
   m_PrefabInstance: {fileID: 536515183857401449}
   m_PrefabAsset: {fileID: 0}
