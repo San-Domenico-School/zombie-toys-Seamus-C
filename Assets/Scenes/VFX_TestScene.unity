@@ -2062,6 +2062,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 281120855}
     m_Modifications:
+    - target: {fileID: 2256120804450835345, guid: f806f5ce1cf094a29afc74a21c2ef63c,
+        type: 3}
+      propertyPath: lightningAttack
+      value: 
+      objectReference: {fileID: 1656200996}
     - target: {fileID: 2256120804450835346, guid: f806f5ce1cf094a29afc74a21c2ef63c,
         type: 3}
       propertyPath: m_audioClip
@@ -2200,6 +2205,77 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f806f5ce1cf094a29afc74a21c2ef63c, type: 3}
+--- !u!4 &1260382300 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 465722, guid: 5e2357c6b4dbd4eed8517f2bb754bd07,
+    type: 3}
+  m_PrefabInstance: {fileID: 1304475478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1304475478
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1545936192}
+    m_Modifications:
+    - target: {fileID: 133346, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
+      propertyPath: m_Name
+      value: LightningHit
+      objectReference: {fileID: 0}
+    - target: {fileID: 465722, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465722, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.5012012
+      objectReference: {fileID: 0}
+    - target: {fileID: 465722, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2879996
+      objectReference: {fileID: 0}
+    - target: {fileID: 465722, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 465722, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 465722, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465722, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465722, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465722, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465722, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465722, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19866214, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
+      propertyPath: InitialModule.startRotationX.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19866214, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
+      propertyPath: InitialModule.startRotationY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e2357c6b4dbd4eed8517f2bb754bd07, type: 3}
 --- !u!1 &1322323462
 GameObject:
   m_ObjectHideFlags: 0
@@ -2856,10 +2932,23 @@ Transform:
   m_LocalPosition: {x: 11.435683, y: -0.30748367, z: -4.9574623}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1260382300}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1656200996 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6081047651714829631, guid: f806f5ce1cf094a29afc74a21c2ef63c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1142465555}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dce0b267cc0c0f498096d3b554ae721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1818118993
 GameObject:
   m_ObjectHideFlags: 0
