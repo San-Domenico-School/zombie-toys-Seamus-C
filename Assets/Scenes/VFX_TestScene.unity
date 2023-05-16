@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: be3cd5f9d2f17460ba1102c4d239dcae,
+  m_LightingDataAsset: {fileID: 112000000, guid: 85795cb05ca724a4687b33f057aeb28f,
     type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: c2efb3382643a4d6b8c826d650bf0b3d,
     type: 2}
@@ -124,7 +124,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 6ac30549ccf274ad3b44f63040a92bed, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 6d738f8461d2a458a929515072f2a79e, type: 2}
 --- !u!1 &36802089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,7 +1587,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3.1e-44, y: 4.641e-42, z: 1.02e-43, w: 0}
+  m_BoundingSphereOverride: {x: 1e-45, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
